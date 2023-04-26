@@ -1,0 +1,98 @@
+body {
+   background-image: url(photo-1506619216599-9d16d0903dfd.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.form {
+    border: 3px solid white;
+    outline: 3px solid white;
+    outline-offset: 5px;
+    background-color: white;
+}
+::placeholder{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+
+}
+.name {
+    display: flexbox;
+    justify-items: center;
+}
+.labellast {
+    display: block;
+}
+.last_name {
+    position: relative;
+    top: -10px;
+    left: 81px;
+}
+.labelcity {
+    display: block;
+    position: relative;
+    top: 10px;
+}
+.city{
+    position: relative;
+    top: -9px;
+    left: 99px;
+
+}
+.state {
+    position: relative;
+    left: 59px;
+}
+.labelpin {
+    display: block;
+    position: relative;
+    top: 9px;
+}
+
+#pin_code {
+    position: relative;
+    top: -9px;
+    left: 97px;
+}
+.delivery {
+    display: block;
+position: relative;
+  top: 7px;
+
+}
+.value {
+    display: block;
+}
+.select {
+    position: relative;
+    top: -10px;
+    left: 121px;
+}
+.form h4 {
+    position: relative;
+    left: 33%;
+}
+.btn {
+    color: rgb(204, 184, 188);
+    background-color:rgb(92, 60, 65);
+    font-size: larger;
+    border-radius: 5px 5px;
+    position: relative;
+    left: 35%
+  }
+@media(min-width: 600px){
+    .labellast {
+        position: relative;
+       top: 10px; 
+    }
+    .form1 {
+        display: flex;
+        justify-content: center;
+    }
+    .heading {
+        display: flex;
+        justify-content: center;
+    }
+    .form {
+    width: 599px;
+    margin: auto;
+    }
+}

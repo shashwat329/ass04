@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psurvey</title>
+    <link rel="stylesheet" href="phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="form">
+        <H4 class="survey">SURVEY FORM</H4>
+        <div class="heading">
+            <h5 class="heading">Fill the form carefully <br>
+                All fields are mandatory to fill </h5>
+        </div>
+        <div class ="form1">
+        <form action="  https://enw7u145b8im9.x.pipedream.net/" method="post" >
+            <div class="name">
+                <p>Name</p>
+                <label for="firt_name">First Name: </label>
+                <input type="text" class="first_name" name="first_name" id="first_name"
+                    placeholder="&ldquo;Enter your first name&rdquo;" required>
+                <label for="last_name" class="labellast">Last Name: </label>
+                <input type="text" class="last_name" id="last_name" name="last_name"
+                    placeholder="&ldquo;Enter your last name &rdquo;">
+            </div>
+            <div class="address">
+                <p>Address</p>
+                <label for="street_address">Street Address: </label>
+                <input type="text" name="street_address" class="street_address" id="street_address"
+                    placeholder="&ldquo;Enter your street address&rdquo;" required>
+
+                <label for="city" class="labelcity">City: </label>
+                <input type="text" name="city" class="city" id="city" placeholder="&ldquo;Enter your city &rdquo;"
+                    required><br>
+
+                <label for="state">State: </label>
+                <input type="text" name="state" class="state" id="state" placeholder="&ldquo;Enter your state &rdquo;"
+                    required>
+
+                <label for="pin_code" class="labelpin">Pincode: </label>
+                <input type="tel" name="pin_code" class="pin_code" id="pin_code"
+                    placeholder="&ldquo;Enter your pincode &rdquo;" required>
+
+            </div>
+            <div class="contact_number">
+                <p>Contact</p>
+                <label for="contact_number">Contact number: </label>
+                <input type="tel" name="contact_number" class="contact_number" id="contact_number"
+                    placeholder="&ldquo;Enter your contact number &rdquo;" required>
+            </div>
+            <div class="rating">
+                <p>Rating</p>
+                <label for="quality_of_products_received_rating">Quality of product</label>
+                <select name="quality_of_products_received_rating" id="quality_of_products_received_rating" autofocus
+                    required>
+                    <option value="select">select</option>
+                    <option value="bad">bad</option>
+                    <option value="good">good</option>
+                    <option value="excellent">excellent</option>
+                </select>
+                <label for="delivery_rating" class="delivery">Delivery</label>
+                <select name="delivery_rating" id="delivery_rating" class="select" autofocus required>
+                    <option value="select">select</option>
+                    <option value="bad">bad</option>
+                    <option value="good">good</option>
+                    <option value="excellent">excellent</option>
+                </select>
+                <label for="value_for_money_rating" class="value">Value for money</label>
+                <select name="value_for_money_rating" id="value_for_money_rating" class="select" autofocus required>
+                    <option value="select">select</option>
+                    <option value="bad">bad</option>
+                    <option value="good">good</option>
+
+                    <option value="excellent">excellent</option>
+                </select><br><br>
+                <label for="btn"></label>
+                <input type="submit" class="btn" id="btn">
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+
+</html>
